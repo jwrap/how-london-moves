@@ -1,5 +1,5 @@
-# amenities
-Trying to understand what make us move with open-data.
+# why-move
+Trying to understand why do we move with open-data.
 
 ## Introduction
 
