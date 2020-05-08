@@ -1,2 +1,2 @@
-# amenities
-Trying to understand what make us move with open-data.
+# Move
+Trying to understand what makes us move with open-data.
