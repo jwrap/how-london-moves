@@ -1,10 +1,2 @@
-# why-move
-Trying to understand why do we move with open-data.
-
-## Introduction
-
-## Data sources
-
-## Main findings
-
-## References
+# Move
+Trying to understand what makes us move with open-data.
