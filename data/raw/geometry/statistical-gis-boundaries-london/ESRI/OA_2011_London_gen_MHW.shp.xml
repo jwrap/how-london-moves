@@ -1,2 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<metadata xml:lang="en"><Esri><CreaDate>20121130</CreaDate><CreaTime>13112100</CreaTime><ArcGISFormat>1.0</ArcGISFormat><ArcGISstyle>ISO 19139 Metadata Implementation Specification</ArcGISstyle><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="C:\Program Files\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddSpatialIndex" Date="20121130" Time="131121">AddSpatialIndex "Q:\Teams\GIS&amp;I\GIS\Processing\ONS\Census2011\Output\V2\OA\Shapefile\England and Wales\OA_2011_BGC_London.shp" 0 0 0</Process></lineage></DataProperties></Esri></metadata>
+version https://git-lfs.github.com/spec/v1
+oid sha256:194da6bd702766e9270c2d1a1cecd8621d611023506e82afaebad30b9ac8f12d
+size 628
