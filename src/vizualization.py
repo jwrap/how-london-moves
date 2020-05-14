@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import geopandas as gpd
 
-def scatterplot(df, figsize=(16,12), resolution='ward', logx=False, logy=False):
+def scatterplot(df, figsize=(16,12), resolution='ward', logx=False, logy=False, savefig=False, sharex=False):
     """Plot population vs amenities by category
     
     Args:
@@ -17,19 +17,20 @@ def scatterplot(df, figsize=(16,12), resolution='ward', logx=False, logy=False):
     """
     nrows = 3
     ncols = 4
-    fig, ax = plt.subplots(nrows=nrows, ncols=ncols, figsize=figsize, sharex=True)
+    fig, ax = plt.subplots(nrows=nrows, ncols=ncols, figsize=figsize, sharex=sharex)
     k = 0
     index = df.index.tolist()
 
     for i in range(nrows):
         for j in range(ncols):
-            ax[i, j].scatter(df.loc["total_population"], df.iloc[k])
+            x = df.loc["total_population"].div(1000)
+            y = df.iloc[k]
+            ax[i, j].scatter(x, y)
             ax[i, j].set_title(df.index[k])
             ax[i, j].set_xlabel('total_population')
             ax[i, j].set_title(f'{df.index[k].capitalize().replace("_", " ")}')
             ax[i, j].set_ylabel(f'Number of amenities in a {resolution}')
-            # ax[i, j].set_ylabel(f'Number of amenity in a borough (log)')
-            ax[i, j].set_xlabel(f'Total population per {resolution}')
+            ax[i, j].set_xlabel(f'Population per {resolution} (x1000)')
             if logx:
                 ax[i, j].set_xscale('log')
             if logy:
@@ -40,10 +41,11 @@ def scatterplot(df, figsize=(16,12), resolution='ward', logx=False, logy=False):
 
     fig.delaxes(ax[2, 2])
     fig.delaxes(ax[2, 3])
-    fig.tight_layout()
-    plt.show()
+    fig.tight_layout();
+    if savefig:
+        plt.savefig(f'../figures/scatter-{resolution}.png', dpi=300)
     
-def choropleth(gdf, figsize=(20,20), cmap='viridis'):
+def choropleth(gdf, figsize=(20,20), cmap='viridis', resolution='ward',savefig=False):
     """Plot amenities types on map
     
     Args:
@@ -71,4 +73,6 @@ def choropleth(gdf, figsize=(20,20), cmap='viridis'):
 
     fig.delaxes(ax[3, 1])
     fig.delaxes(ax[3, 2])
-    fig.tight_layout()
+    fig.tight_layout();
+    if savefig:
+        plt.savefig(f'../figures/choropleth-{resolution}.png', dpi=300)
