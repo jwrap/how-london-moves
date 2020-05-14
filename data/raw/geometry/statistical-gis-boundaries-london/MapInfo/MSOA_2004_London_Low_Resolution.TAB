@@ -1,11 +1,3 @@
-!table
-!version 300
-!charset WindowsLatin1
-
-Definition Table
-  Type NATIVE Charset "WindowsLatin1"
-  Fields 4
-    MSOA_CODE Char (9) ;
-    MSOA_NAME Char (50) ;
-    LA_CODE Char (4) ;
-    LA_NAME Char (50) ;
+version https://git-lfs.github.com/spec/v1
+oid sha256:55cd2025efd68c0953753b39d4b81a7ec6c34354aadca5e8760fd0de51c43b55
+size 219

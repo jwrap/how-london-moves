@@ -1,2 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<metadata xml:lang="en"><Esri><CreaDate>20130430</CreaDate><CreaTime>09254400</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20130430" Time="092544">CalculateField MSOA_2004_London_High_Resolution ID "[FID] +1" VB #</Process></lineage></DataProperties></Esri></metadata>
+version https://git-lfs.github.com/spec/v1
+oid sha256:e56aad241587cdef6bb18efacab545ceb5bd07040e8dcb326d2a3a6c74bfc229
+size 489

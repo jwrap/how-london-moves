@@ -1,14 +1,3 @@
-!table
-!version 300
-!charset Neutral
-
-Definition Table
-  Type NATIVE Charset "Neutral"
-  Fields 7
-    Name Char (95) Index 1 ;
-    GSS_Code Char (9) Index 2 ;
-    Hectares Decimal (12,3) ;
-    Non_Inland_Area Decimal (12,3) ;
-    LB_GSS_Code Char (9) Index 3 ;
-    Borough Char (22) ;
-    Global_Polygon_ID Integer ;
+version https://git-lfs.github.com/spec/v1
+oid sha256:805843a874dd0a988979ca975b49bc834b1d3ba4ca11edf474277295cfe00cae
+size 331
