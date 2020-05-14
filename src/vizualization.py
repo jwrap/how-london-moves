@@ -61,7 +61,16 @@ def choropleth(gdf, figsize=(20,20), cmap='viridis', resolution='ward',savefig=F
     ncols = 3
     fig, ax = plt.subplots(nrows=nrows, ncols=ncols, figsize=figsize, sharex=True)
     k = 0
-    columns = gdf.columns[:-3]
+    columns = ['nightlife',
+               'mobility',
+               'eatery',
+               'community',
+               'public_services',
+               'culture_entertainment',
+               'education',
+               'wellbeing',
+               'economic_activity',
+               'family']
     for i in range(nrows):
         for j in range(ncols):
             gdf.to_crs(epsg=3857).plot(column=columns[k], ax=ax[i, j], legend=True, scheme='fisher_jenks', cmap=cmap)
