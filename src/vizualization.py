@@ -1,12 +1,13 @@
 import matplotlib.pyplot as plt
 import geopandas as gpd
 
-def scatterplot(df, figsize=(16,12), logx=False, logy=False):
+def scatterplot(df, figsize=(16,12), resolution='ward', logx=False, logy=False):
     """Plot population vs amenities by category
     
     Args:
         df (DataFrame) : Amenities merged with population data
         figsize (tuple) : Figure size
+        resolution (str) : Resolution
         logx (bool) : Set x scale to log 
         logy (bool) : Set y scale to log
         
@@ -26,9 +27,9 @@ def scatterplot(df, figsize=(16,12), logx=False, logy=False):
             ax[i, j].set_title(df.index[k])
             ax[i, j].set_xlabel('total_population')
             ax[i, j].set_title(f'{df.index[k].capitalize().replace("_", " ")}')
-            ax[i, j].set_ylabel(f'Number of amenity in a borough')
+            ax[i, j].set_ylabel(f'Number of amenities in a {resolution}')
             # ax[i, j].set_ylabel(f'Number of amenity in a borough (log)')
-            ax[i, j].set_xlabel('Total population per borough')
+            ax[i, j].set_xlabel(f'Total population per {resolution}')
             if logx:
                 ax[i, j].set_xscale('log')
             if logy:
