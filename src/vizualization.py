@@ -73,7 +73,8 @@ def choropleth(gdf, figsize=(20,20), cmap='viridis', resolution='ward',savefig=F
                'family']
     for i in range(nrows):
         for j in range(ncols):
-            gdf.to_crs(epsg=3857).plot(column=columns[k], ax=ax[i, j], legend=True, scheme='fisher_jenks', cmap=cmap)
+            gdf[gdf[columns[k]] > 0].to_crs(epsg=3857).plot(column=columns[k], ax=ax[i, j], legend=True, scheme='fisher_jenks', cmap=cmap)
+            gdf[gdf[columns[k]] == 0].to_crs(epsg=3857).plot(color='gray', alpha=.5, ax=ax[i,j], linewidth=0.1, edgecolor='black')
             ax[i, j].set_title(f'{columns[k].capitalize().replace("_", " ")}')
             ax[i, j].axis('off')
             k += 1
