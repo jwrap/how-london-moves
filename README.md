@@ -15,8 +15,8 @@ This repo is structured as follows:
 ├── figures                                       <- Figures generated
 │
 ├── notebooks                
-│   ├── 1-data-gathering-preprocessing.ipynb      <- The main notebook used for EDA
-│   ├── 2- exploratory-data-analysis.ipynb        <- The main notebook used for EDA
+│   ├── 1-data-gathering-preprocessing.ipynb      <- Notebook for data pre-processing
+│   ├── 2- exploratory-data-analysis.ipynb        <- Notebook for exploratory data analysis 
 │
 ├── src                                           <- Standalone scripts used for data visualization
 ```
