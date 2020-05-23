@@ -1,5 +1,5 @@
 # How London Moves
-An exploratory analysis of urban amenities in Greater London.
+An exploratory analysis of urban amenities and travel behavior in Greater London.
 
 ## Introduction
 The objective of this exercise was to understand if and how urban amenities affect travel behavior. It is understood that urban amenities (such as restaurants, parks, and community centers) play a role in defining the attractiveness of an area. Using points-of-interest data from OpenStreetMaps as well as open data from the [London Data Store](https://data.london.gov.uk) and [Transport for London](https://api-portal.tfl.gov.uk/docs), we were able to generate an overview of urban amenity distribution in relation to travel volumes around Greater London.
