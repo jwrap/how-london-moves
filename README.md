@@ -1,4 +1,4 @@
-# HowLondonMoves
+# How London Moves
 An exploratory analysis of urban amenities in Greater London.
 
 ## Introduction
