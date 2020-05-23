@@ -36,4 +36,4 @@ More here:
 
 If you are interested in the project, please, either fork it and submit a pull request, or contact us via Twitter or email.
 
-_Mikhail Sirenko_ [@mikhailsirenko](https://twitter.com/mikhailsirenko), _Jin Rui Yap_ [@jinruii](https://twitter.com/jinruii)
+_Jin Rui Yap_ [@jinruii](https://twitter.com/jinruii), _Mikhail Sirenko_ [@mikhailsirenko](https://twitter.com/mikhailsirenko)
