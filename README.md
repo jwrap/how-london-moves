@@ -35,8 +35,7 @@ This repo is structured as follows:
 2. Incidences of eatery, nightlife and economic activity amenities are highly correlated.
 3. Central London areas that attract a markedly larger volume of travelers than other peripheral areas contain more amenities on average, and substantially more eatery, nightlife and culture & entertainment amenities.
 
-## Contributors
-If you are interested in the project, please, either fork it and submit a pull request, or contact us via Twitter.
+## Authors
 
 _Jin Rui Yap_ [@jinruii](https://twitter.com/jinruii), _Mikhail Sirenko_ [@mikhailsirenko](https://twitter.com/mikhailsirenko), _Trivik Verma_ [@TrivikV](https://twitter.com/TrivikV).
 
