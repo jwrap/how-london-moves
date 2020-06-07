@@ -42,7 +42,4 @@ _Jin Rui Yap_ [@jinruii](https://twitter.com/jinruii), _Mikhail Sirenko_ [@mikha
 ## Refernces
 1. London Datastore (2019). Statistical GIS Boundary Files for London. Retrieved from https://data.london.gov.uk/dataset/statistical-gis-boundary-files-london
 2. Office for National Statistics (2019). Census Output Area population estimates – London, England (supporting information). Retrieved from https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/censusoutputareaestimatesinthelondonregionofengland
-3. Transport for London (2020). Transport for London API. Retrieved from https://api-portal.tfl.gov.uk/docs
-Wikimedia Commons (2020). London Underground geographic maps/CSV. Retrieved from https://commons.wikimedia.org/wiki/London_Underground_geographic_maps/CSV
-4. OpenStreetMap contributors (2020). Amenities. Retrieved from https://www.openstreetmap.org.
-
+3. Geofabrik (2020). Download OpenStreetMap data for this region: England. Retrieved from http://download.geofabrik.de/europe/great-britain/england/greater-london.html.
