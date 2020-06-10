@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import geopandas as gpd
 
-def scatterplot(df, figsize=(16,12), resolution='ward', logx=False, logy=False, savefig=False, sharex=False):
+def scatterplot(df, figsize=(16,12), resolution='subdistrict', logx=False, logy=False, savefig=False, sharex=False):
     """Plot population vs amenities by category
     
     Args:
@@ -45,7 +45,7 @@ def scatterplot(df, figsize=(16,12), resolution='ward', logx=False, logy=False, 
     if savefig:
         plt.savefig(f'../figures/scatter-{resolution}.png', dpi=300)
     
-def choropleth(gdf, figsize=(20,20), cmap='viridis', resolution='ward',savefig=False):
+def choropleth(gdf, figsize=(20,20), cmap='viridis', resolution='subdistrict',savefig=False):
     """Plot amenities types on map
     
     Args:
