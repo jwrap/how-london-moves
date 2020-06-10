@@ -13,11 +13,14 @@ dependencies:
   - osmnx=0.12
   - pandas=1.0.3
   - pip=20.0.2
-  - plotly=4.6.0
-  - plotly_express=0.4.1
   - scipy=1.4.1
   - seaborn=0.10.0
   - shapely=1.6.4
   - tqdm=4.45.0
+  - pyrosm=0.5.2
+  - scikit-learn=0.23.1
+  - h3=3.6.3
+  - folium=0.11.0
+  - pysal=2.2.0
 prefix: C:\Users\jryap\anaconda3\envs\amenities
 
